@@ -1,1 +1,1 @@
-# wsl2-dns-config
+This script is designed to automate the configuration of DNS settings within a WSL2 environment on Windows. It modifies the /etc/wsl.conf file to prevent WSL2 from generating a /etc/resolv.conf file automatically, and creates a custom /etc/resolv.conf file with a specified DNS server address.
