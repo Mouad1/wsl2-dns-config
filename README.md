@@ -21,16 +21,15 @@ This script facilitates the configuration of DNS settings within a WSL2 environm
 
 ## Usage
 
-1. Save the script to a file named `update_dns.sh` for example.
-2. Make the script executable with this command: `chmod +x update_dns.sh`
-3. Run the script once without arguments: `./update_dns.sh`
-4. Follow the instructions to restart WSL2 from PowerShell with `wsl --shutdown`.
-5. Re-open WSL and run the script again with local DNS server address as an argument:
+1. Make the script executable with this command: `chmod +x update_dns.sh`
+2. Run the script once without arguments: `./update_dns.sh`
+3. Follow the instructions to restart WSL2 from PowerShell with `wsl --shutdown`.
+4. Re-open WSL and run the script again with local DNS server address as an argument:
    - Open your Command Prompt from the Start menu.
    - Type `ipconfig/all` into your command prompt and press Enter.
    - Look for the field labeled “DNS Servers.” The first address is the primary DNS server, and the next address is the secondary DNS server.
-6. Follow the instructions to restart WSL2 again from PowerShell with `wsl --shutdown`.
-7. Start a new Linux prompt in WSL2.
+5. Follow the instructions to restart WSL2 again from PowerShell with `wsl --shutdown`.
+6. Start a new Linux prompt in WSL2.
 
 Now, your WSL2 environment should be using the specified DNS server for name resolution.
 
